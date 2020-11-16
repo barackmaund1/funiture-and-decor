@@ -213,9 +213,9 @@ function Header() {
               <NavLink
                 className="navbar-item"
                 activeClassName="is-active"
-                to="/our_mission"
+                to="/contact_us"
               >
-                Our mission
+                Contact Us
               </NavLink>
             </div>
             <div className="navbar-end">

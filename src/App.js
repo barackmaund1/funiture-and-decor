@@ -4,6 +4,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Banner from './Banner';
 import About from './About';
 import Value from './Value';
+import { Contact } from './Contact';
 
 
 function App() {
@@ -17,17 +18,19 @@ function App() {
           <Route path="/about">
             <About />
           </Route>
-         
+
           {/*Our mission*/}
-          <Route path='/our_values'>
-          <Value/>
+          <Route path="/our_values">
+            <Value />
+          </Route>
+          <Route path="/contact_us">
+            <Contact/>
           </Route>
           {/*contact*/}
           {/*footer*/}
           <Route path="/">
             <Header />
             <Banner />
-            
           </Route>
         </Switch>
       </BrowserRouter>
