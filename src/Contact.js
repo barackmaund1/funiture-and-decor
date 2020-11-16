@@ -4,16 +4,17 @@ import Typography from "@material-ui/core/Typography";
 import { Container } from "@material-ui/core";
 import CardContent from "@material-ui/core/CardContent";
 import Header from './Header';
+import Footer from './Footer';
 
 export const Contact = () => {
     return (
       <div>
         <Header />
-        <Container className="contact">
+        <Container className="about">
           <img src="https://bit.ly/3pB43Uo" className="about__img" />
           <span className="div-title">Contact us</span>
           <div className="contact-form">
-            <div className="contact__info">
+            <div className="">
               <span>
                 Contact us and we will get back to you within 24 hours.
               </span>
@@ -50,6 +51,8 @@ export const Contact = () => {
             </div>
           </div>
         </Container>
+        <Footer/>
       </div>
     );
 }
+export default Contact;

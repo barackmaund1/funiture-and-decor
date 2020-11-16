@@ -4,6 +4,8 @@ import Header from "./Header";
 import Typography from "@material-ui/core/Typography";
 import { Container } from "@material-ui/core";
 import CardContent from "@material-ui/core/CardContent";
+import './Value.css'
+import Footer from './Footer';
 
 const Value = () => {
     return (
@@ -23,6 +25,7 @@ const Value = () => {
             </Typography>
           </CardContent>
         </Container>
+        <Footer/>
       </div>
     );
 }

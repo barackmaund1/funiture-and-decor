@@ -1,23 +1,18 @@
-import React from 'react'
-import InfoIcon from "@material-ui/icons/Info";
-
-import './About.css' 
+import React from "react";
+import '../Value.css'
 import Typography from "@material-ui/core/Typography";
-
+import { Container } from "@material-ui/core";
 import CardContent from "@material-ui/core/CardContent";
-import { Container } from '@material-ui/core';
-import Header from './Header';
-import Footer from './Footer';
 
-const About = () => {
-    return (
-        <div>
-        <Header/>
-        <Container className="about">
-         <InfoIcon className='about__img'/>
-        <CardContent className='about__content'>
+const Value1 = () => {
+  return (
+    <div>
+     
+      <Container className="about">
+        <img src="https://bit.ly/35zNiRr" className="about__img" />
+        <CardContent className="about__content">
           {" "}
-          <Typography className='about__h1'>What we Do</Typography>
+          <Typography className="about__h1">Our value</Typography>
           <Typography variant="body2" component="p" color="textSecondary">
             Class aptent taciti sociosqu ad litora torquent per conubia nostra,
             per inceptos himenaeos. Vestibulum ante ipsum primis in faucibus
@@ -27,9 +22,8 @@ const About = () => {
           </Typography>
         </CardContent>
       </Container>
-      <Footer/>
-      </div>
-    );
-}
+    </div>
+  );
+};
 
-export default About
+export default Value1;
