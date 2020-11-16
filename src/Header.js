@@ -6,6 +6,7 @@ import Modal from "@material-ui/core/Modal";
 import { Button, Input } from "@material-ui/core";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { NavLink, withRouter } from "react-router-dom";
+import Banner from "./Banner";
 
 
 function getModalStyle() {
@@ -200,7 +201,7 @@ function Header() {
                 activeClassName="is-active"
                 to="/about"
               >
-                About
+                What We Do
               </NavLink>
               <NavLink
                 className="navbar-item"
@@ -220,7 +221,10 @@ function Header() {
             <div className="navbar-end">
               <div className="navbar-item">
                 {user ? (
-                  <Button onClick={() => auth.signOut()} className='navbar__button'>
+                  <Button
+                    onClick={() => auth.signOut()}
+                    className="navbar__button"
+                  >
                     <ExitToAppIcon /> logout
                   </Button>
                 ) : (
@@ -234,6 +238,8 @@ function Header() {
           </div>
         </div>
       </nav>
+      {/*banner*/}
+     
     </div>
   );
 }

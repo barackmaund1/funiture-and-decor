@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Header';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Banner from './Banner';
+import About from './About';
 
 
 function App() {
@@ -9,16 +10,22 @@ function App() {
     <div className="App">
       <BrowserRouter>
         {/*header*/}
-       
-        <Header />
 
-        {/*banner*/}
-        <Banner />
         {/*About*/}
-        {/*What we do*/}
-        {/*Our mission*/}
-        {/*contact*/}
-        {/*footer*/}
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+         
+          {/*Our mission*/}
+          {/*contact*/}
+          {/*footer*/}
+          <Route path="/">
+            <Header />
+            <Banner />
+            
+          </Route>
+        </Switch>
       </BrowserRouter>
     </div>
   );

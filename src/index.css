@@ -1,4 +1,18 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 *{
   margin: 0;
+  
+  padding:0;
+  box-sizing: border-box;
+}
+#body{
+  min-height: 30vh;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+ 
+  
 }

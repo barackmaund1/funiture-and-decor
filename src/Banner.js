@@ -11,7 +11,7 @@ const Banner = () => {
         <div class="container-fluid">
           <div className="row title" style={{ marginBottom: "20px" }}>
             <div class="col-sm-12 btn btn-info">
-              Owl Carousel In React Application
+              Star furniture Emeral
             </div>
           </div>
         </div>
