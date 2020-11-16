@@ -1,6 +1,14 @@
 .footer{
      margin-top: 1rem;
   padding: 1rem;
-  
+   background-color: rgb(180, 115, 147);
   width: 100%;
+  color: white !important;
+}
+.list-unstyled > a{
+    text-decoration: none;
+    color: white !important;
+}
+.title{
+    color: white !important;
 }

@@ -10,3 +10,13 @@
         width:100%  
 
 }  
+
+.row title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(180, 115, 147) !important;
+}
+#title{
+     background-color: rgb(180, 115, 147) !important;
+color: white !important;
+    }

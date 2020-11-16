@@ -164,7 +164,7 @@ function Header() {
       </Modal>
       {/*header*/}
       <nav
-        className="navbar is-primary"
+        className="navbar "
         role="navigation"
         aria-label="main navigation"
       >

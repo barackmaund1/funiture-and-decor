@@ -10,7 +10,7 @@ const Banner = () => {
       <div>
         <div class="container-fluid">
           <div className="row title" style={{ marginBottom: "20px" }}>
-            <div class="col-sm-12 btn btn-info">
+            <div class="col-sm-12 btn btn" id='title'>
               Star furniture Emeral
             </div>
           </div>

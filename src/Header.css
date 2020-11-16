@@ -1,14 +1,20 @@
 .navbar{
   border-bottom: 1px solid lightgray;
-    
+  background-color: rgb(180, 115, 147);  
   display: flex;
-  
+  color: white !important;
   flex-direction: row;
+}
+.navbar-item{
+  color: white !important;
+}
+.navbar-item:hover{
+  color: rgb(56, 56, 56) !important;
 }
 .header__img{
     object-fit: contain;
     padding: 0px;
-    background-color :rgb(255, 255, 255);
+    background-color: rgb(180, 115, 147);
     height: 50px !important;
     
 }
@@ -25,5 +31,8 @@
 }
 .navbar__button{
   color: rgb(32, 31, 31) !important;
+}
+.navbar-item{
+  color: rgb(65, 62, 62) !important;
 }
 }

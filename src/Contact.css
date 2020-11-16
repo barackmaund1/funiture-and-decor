@@ -1,4 +1,84 @@
+.contact{
+   margin-top: 50px;
+    margin-bottom: 20px;
+    background-color:rgb(252, 235, 243) ;
+    border-left: 2px solid rgb(180, 115, 147);
+    border-radius: 1px;
+    color: rgb(97, 96, 96);
+    box-shadow: 2px 2px 2px rgb(133, 131, 131);  
+}
 .contact-form{
     display: flex;
     flex-direction: column;
+}
+.contact__form{
+    display: flex;
+    flex-direction: column;
+}
+.contact__form2{
+    display: flex;
+    flex-direction: column;
+}
+.contact__position{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contact__us{
+    padding-left: 100px;
+}
+.div-title{
+    font-size: 30px;
+
+}
+.contact__img{
+    padding-top: 30px;
+    width: 70%;
+    height: 60%;
+     background-color:rgb(252, 235, 243) ;
+}
+.contact__h2{
+    font-size: 20px;
+}
+.input-field{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.contact-btn{
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(180, 115, 147);
+    background-color:  rgb(180, 115, 147);
+   color: white;
+}
+@media only screen and (min-width:320px) and (max-width:725px){
+    .contact{
+   margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:rgb(252, 235, 243) ;
+    border-left: 2px solid rgb(180, 115, 147);
+    border-radius: 1px;
+    color: rgb(97, 96, 96);
+    box-shadow: 2px 2px 2px rgb(133, 131, 131);  
+}
+    .contact__position{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contact__us{
+    padding-left: 10px !important;
+}
+.contact__img{
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 30px;
+    width: 50%;
+    height: 60%;
+     background-color:rgb(252, 235, 243) ;
+}
 }
