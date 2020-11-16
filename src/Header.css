@@ -1,0 +1,29 @@
+.navbar{
+  border-bottom: 1px solid lightgray;
+    
+  display: flex;
+  
+  flex-direction: row;
+}
+.header__img{
+    object-fit: contain;
+    padding: 0px;
+    background-color :rgb(255, 255, 255);
+    height: 50px !important;
+    
+}
+.header__loginContainer > button{
+  color: white !important;
+}
+.navbar__button{
+  color: white !important;
+}
+@media only screen and (min-width:320px) and (max-width:725px){
+
+.header__loginContainer > button{
+  color: rgb(37, 36, 36) !important;
+}
+.navbar__button{
+  color: rgb(32, 31, 31) !important;
+}
+}
