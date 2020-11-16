@@ -1,8 +1,9 @@
 import React from 'react'
 import InfoIcon from "@material-ui/icons/Info";
-import Typography from "@material-ui/core/Typography";
-import Card from "@material-ui/core/Card";
+
 import './About.css' 
+import Typography from "@material-ui/core/Typography";
+
 import CardContent from "@material-ui/core/CardContent";
 import { Container } from '@material-ui/core';
 import Header from './Header';

@@ -101,7 +101,7 @@ function Header() {
             <center>
               <img
                 className="header__headerImage"
-                src="https://bit.ly/2H8dmtM"
+                src="https://bit.ly/2H8dmtM" alt='logo'
               />
             </center>
             <Input
@@ -138,7 +138,7 @@ function Header() {
             <center>
               <img
                 className="hearder__headerImage"
-                src="https://bit.ly/2H8dmtM"
+                src="https://bit.ly/2H8dmtM" alt='logo'
               />
             </center>
 
@@ -180,8 +180,8 @@ function Header() {
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
+
+             
             </a>
           </div>
           <div className={`navbar-menu ${isOpen && "is-active"}`}>

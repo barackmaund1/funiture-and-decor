@@ -3,6 +3,7 @@ import Header from './Header';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Banner from './Banner';
 import About from './About';
+import Value from './Value';
 
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
           </Route>
          
           {/*Our mission*/}
+          <Route path='/our_values'>
+          <Value/>
+          </Route>
           {/*contact*/}
           {/*footer*/}
           <Route path="/">
