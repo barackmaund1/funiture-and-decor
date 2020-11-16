@@ -36,3 +36,27 @@
   color: rgb(65, 62, 62) !important;
 }
 }
+#header__form{
+  border:2px solid rgb(180, 115, 147) ;
+  
+}
+.header__signup{
+  display: flex;
+  flex-direction: column;
+}
+.header__input{
+  padding: 10px;
+  margin: 5px;
+}
+.header__button{
+  color: white !important;
+  margin-top: 10px !important;
+  padding-top: 10px !important;
+  background-color: rgb(180, 115, 147) !important;
+}
+@media only screen and (min-width:320px) and (max-width:725px){
+  #header__form{
+  border:2px solid rgb(180, 115, 147) ;
+  width:90% !important;
+}
+}

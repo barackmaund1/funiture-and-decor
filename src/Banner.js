@@ -11,7 +11,7 @@ const Banner = () => {
         <div class="container-fluid">
           <div className="row title" style={{ marginBottom: "20px" }}>
             <div class="col-sm-12 btn btn" id='title'>
-              Star furniture Emeral
+              Star Furniture Emeral
             </div>
           </div>
         </div>
@@ -24,31 +24,31 @@ const Banner = () => {
             autoplay={true}
           >
             <div>
-              <img className="img" src={"assets/img/1.jpeg"} />
+              <img className="img" src={"assets/img/1.jpg"} />
             </div>
 
             <div>
-              <img className="img" src={"assets/img/2.jpeg"} />
+              <img className="img" src={"assets/img/3.jpg"} />
             </div>
 
             <div>
-              <img className="img" src={"assets/img/4.jpeg"} />
+              <img className="img" src={"assets/img/7.jpg"} />
             </div>
 
             <div>
-              <img className="img" src={"assets/img/3.jpeg"} />
+              <img className="img" src={"assets/img/4.jpg"} />
             </div>
 
             <div>
-              <img className="img" src={"assets/img/5.jpeg"} />
+              <img className="img" src={"assets/img/5.jpg"} />
             </div>
 
             <div>
-              <img className="img" src={"assets/img/6.jpeg"} />
+              <img className="img" src={"assets/img/6.jpg"} />
             </div>
 
             <div>
-              <img className="img" src={"assets/img/download.jpeg"} />
+              <img className="img" src={"assets/img/9.jpg"} />
             </div>
           </OwlCarousel>
         </div>

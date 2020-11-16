@@ -23,9 +23,10 @@ function getModalStyle() {
 const useStyles = makeStyles((theme) => ({
   paper: {
     position: "absolute",
-    width: 400,
+    width: 600,
+    height:500,
     backgroundColor: theme.palette.background.paper,
-    border: "2px solid #000",
+    
     boxShadow: theme.shadows[5],
     padding: theme.spacing(2, 4, 3),
   },
@@ -96,17 +97,18 @@ function Header() {
   return (
     <div className="header">
       <Modal open={open} onClose={() => setOpen(false)}>
-        <div style={modalStyle} className={classes.paper}>
-          <form className="app__signup">
+        <div style={modalStyle} className={classes.paper} id="header__form">
+          <form className="header__signup">
             <center>
               <img
                 className="header__headerImage"
-                src="https://bit.ly/2H8dmtM" alt='logo'
+                src="https://bit.ly/2H8dmtM"
+                alt="logo"
               />
             </center>
             <Input
               className="header__input"
-              placeholder="username"
+              placeholder="Username"
               type="text"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
@@ -114,60 +116,57 @@ function Header() {
 
             <Input
               className="header__input"
-              placeholder="email"
+              placeholder="Email"
               type="text"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
             <Input
               className="header__input"
-              placeholder="password"
+              placeholder="Password"
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
-            <Button type="submit" onClick={signUp}>
+            <Button type="submit" onClick={signUp} className="header__button">
               Sign Up
             </Button>
           </form>
         </div>
       </Modal>
       <Modal open={opensignIn} onClose={() => setOpenSignIn(false)}>
-        <div style={modalStyle} className={classes.paper}>
-          <form className="app__signup">
+        <div style={modalStyle} className={classes.paper} id="header__form">
+          <form className="header__signup">
             <center>
               <img
                 className="hearder__headerImage"
-                src="https://bit.ly/2H8dmtM" alt='logo'
+                src="https://bit.ly/2H8dmtM"
+                alt="logo"
               />
             </center>
 
             <Input
               className="header__input"
-              placeholder="email"
+              placeholder="Email"
               type="text"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
             <Input
               className="header__input"
-              placeholder="password"
+              placeholder="Password"
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
-            <Button type="submit" onClick={signIn}>
+            <Button type="submit" onClick={signIn} className="header__button">
               Sign In
             </Button>
           </form>
         </div>
       </Modal>
       {/*header*/}
-      <nav
-        className="navbar "
-        role="navigation"
-        aria-label="main navigation"
-      >
+      <nav className="navbar " role="navigation" aria-label="main navigation">
         <div className="container">
           <div className="navbar-brand">
             <a
@@ -180,8 +179,6 @@ function Header() {
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
-
-             
             </a>
           </div>
           <div className={`navbar-menu ${isOpen && "is-active"}`}>
@@ -239,7 +236,6 @@ function Header() {
         </div>
       </nav>
       {/*banner*/}
-     
     </div>
   );
 }
